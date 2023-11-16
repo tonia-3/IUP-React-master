@@ -13,21 +13,9 @@ function LandingPage() {
   };
 
   return (
-    <div
-      style={{
-        textAlign: "center",
-        paddingTop: "200px",
-        paddingBottom: "400px",
-        backgroundImage: 'url("/images/imarisha.png")',
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-      }}
-    >
-      <h1 style={{ color: "blue", fontSize: "48px" }}>
-        IMARISHA UCHUMI PARTY (UIP)
-      </h1>
-      <p style={{ color: "blue", fontSize: "36px" }}>Power Line On post</p>
-      <br />
+    <div style={{ textAlign: "center", paddingTop: "100px" }}>
+      <h1 style={{ color: "blue" }}>IMARISHA UCHUMI PARTY (UIP)</h1>
+      <p style={{ color: "blue" }}>Power Line On post</p>
       <button
         style={{
           backgroundColor: "yellow",
