@@ -4,10 +4,15 @@ import { Link } from "react-router-dom";
 
 function ContactUsPage() {
   const pageStyle = {
-    backgroundColor: "white",
-    padding: "30px",
     color: "navy",
     fontSize: "40px",
+    textAlign: "left",
+    paddingTop: "200px",
+    paddingBottom: "400px",
+    paddingLeft: "20px",
+    backgroundImage: 'url("/images/imarisha.png")',
+    backgroundPosition: "center",
+    backgroundSize: "cover",
   };
 
   const headingStyle = {
