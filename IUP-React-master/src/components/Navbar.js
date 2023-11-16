@@ -5,12 +5,20 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="container-fluid" style={{ textAlign: "right" }}>
+    <div
+      className="container-fluid"
+      style={{
+        textAlign: "right",
+        display: "flex",
+        justifyContent: "flex-end",
+        alignItems: "center",
+      }}
+    >
       <nav
         className="navbar navbar-expand-lg  navbar-light bg-light"
         style={{
           marginTop: "10px",
-          padding: "20px 25px",
+          padding: "15px 10px",
           textAlign: "right",
         }}
       >
